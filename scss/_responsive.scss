@@ -1,55 +1,41 @@
 @import 'variables';
 @import 'mixins';
-
-
 @media (max-height: 650px) {
-	#form-section {
-		height: 650px;
-	}
+    #form-section {
+        height: 650px;
+    }
 }
-
 
 @media (max-width: 768px) {
-	#main-header {
-		.main-logo {
-			text-align: center;
-			float: none;
-			width: 100%;
-		}
-		.contact-data {
-			display: none;
-		}
-	}
-	
-	
-	#form-section {
-		.right-site-form {
-			left: 0;
-			right: 0;
-			margin: auto;
-		}
-	}
-	
-	
-	footer {
-
-	
-	.col-1-2-footer {
-		width: 100%;
-		
-	}
+    #main-header {
+        .main-logo {
+            text-align: center;
+            float: none;
+            width: 100%;
+        }
+        .contact-data {
+            display: none;
+        }
+    }
+    #form-section {
+        .right-site-form {
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+    footer {
+        .col-1-2-footer {
+            width: 100%;
+        }
+    }
 }
 
-
 @media (max-width: 420px) {
-	
-	
-	#form-section {
-		
-		background-position: left;
-		
-		.right-site-form {
-			width: 100%;
-		}
-	}
+    #form-section {
+        background-position: left;
+        .right-site-form {
+            width: 100%;
+        }
+    }
 }

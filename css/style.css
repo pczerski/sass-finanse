@@ -106,21 +106,7 @@ footer {
     right: 0;
     margin: auto; }
   footer .col-1-2-footer {
-    width: 100%;
-    padding: 20px; }
-    footer .col-1-2-footer .fa {
-      height: 50px;
-      width: 50px;
-      background-color: #ecd407;
-      display: inline-block;
-      color: #292929;
-      line-height: 50px;
-      text-align: center;
-      font-size: 1.4em;
-      margin-top: 20px; }
-    footer .col-1-2-footer span {
-      display: block;
-      margin: 10px 0; } }
+    width: 100%; } }
 
 @media (max-width: 420px) {
   #form-section {
