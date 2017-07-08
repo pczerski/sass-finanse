@@ -1,0 +1,51 @@
+@import 'variables';
+@import 'mixins';
+
+#form-section {
+	height: 100vh;
+	background-image: url(../img/background.png);
+	
+	@include background-settings(center, cover);
+	
+	padding: $main-padding;
+	position: relative;
+	
+	.right-site-form{
+		
+		position: absolute;
+		bottom: 30px;
+		right: 80px;
+		width: 370px;
+		
+		form {
+			background-color: $base-color-blue;
+			fieldset {
+				padding: 10px;
+				border: none;
+				
+				input:not([type="submit"]), textarea {
+					width: 100%;
+					font-size: 1em;
+					padding: 10px;
+					font-family: $base-font;
+					margin-bottom: 10px;
+				}
+				
+				input[type="submit"] {
+					padding: 20px;
+					background-color: $yellow-color;
+					border: none;
+					font-weight: 700;
+					font-size: 1.2em;
+					transition: all 0.3s;
+					cursor: pointer;
+					
+					&:hover {
+						background-color: #fff;
+					}
+				}
+			}
+		}
+		
+	}
+}

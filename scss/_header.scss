@@ -1,0 +1,47 @@
+@import 'variables';
+@import 'mixins';
+
+#main-header {
+	
+	position: absolute;
+	width: 100%;
+	padding: $main-padding;
+	z-index: 10;
+
+	.main-logo {
+	
+		@include col-1-2;
+		
+		
+		.fa {
+			color: $yellow-color;
+			font-size: 2em;
+		}
+		
+		h1 {
+			margin: 0;
+			display: inline-block;
+		}
+		
+		
+	}
+	
+	.contact-data {
+		
+		float: right;
+		
+		.fa {
+			font-size: 2em;
+			margin: 0;
+		}
+		
+		.phone {
+			display: inline-block;
+			width: 200px;
+			
+			span {
+				display: block;
+			}
+		}
+	}
+}

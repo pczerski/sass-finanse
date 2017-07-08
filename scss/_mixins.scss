@@ -1,0 +1,12 @@
+@import 'variables';
+
+
+@mixin background-settings($position, $size) {
+	background-position: $position;
+	background-size: $size;
+}
+
+@mixin col-1-2 {
+	float: left;
+	width: 50%;
+}
