@@ -1,12 +1,12 @@
 @import 'variables';
 
-
 @mixin background-settings($position, $size) {
-	background-position: $position;
-	background-size: $size;
+    background-size: $size;
+    background-position: $position;
 }
 
-@mixin col-1-2 {
-	float: left;
-	width: 50%;
+@mixin center-block {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }

@@ -1,0 +1,40 @@
+@import 'variables';
+@import 'mixins';
+
+#form-section {
+    position: absolute;
+    width: 370px;
+    right: $space-large;
+    bottom: 100px;
+    
+    fieldset {
+        border: none;
+        background-color: $navy-color;
+        
+        input:not([type="submit"]), textarea {
+            width: 100%;
+            height: $space-medium;
+            font-family: $base-font;
+            padding: $space-small;
+            margin-bottom: $space-small;
+        }
+        
+        textarea {
+            height: 80px;
+            resize: none;
+        }
+        
+        input[type="submit"] {
+            padding: 20px;
+            margin-top: $space-small;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            background-color: $yellow-color;
+            transition: all .7s;
+            &:hover {
+                background-color: $base-font-color;    
+            }
+        }
+    }
+}

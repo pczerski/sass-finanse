@@ -1,16 +1,12 @@
 @import 'variables';
 @import 'mixins';
 
-* {
-	box-sizing: border-box;
-}
-
 body {
-	font-family: $base-font;
-	color: $base-font-color;
-	margin: 0;
+    font-family: $base-font;
+    color: $base-font-color;
+    margin: 0;
 }
 
 .yellow {
-	color: $yellow-color;
+    color: $yellow-color;
 }
